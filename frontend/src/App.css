@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App h1 {
+  color: #333;
+}
+
+.App h2 {
+  margin-top: 20px;
+  color: #555;
+}
+
+.App input[type="text"], .App textarea {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.App textarea {
+  height: 100px;
+}
+
+.App button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #3e8e41;
+}
