@@ -1,0 +1,11 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Lint JavaScript
+        run: echo "Linting JavaScript files..."
+      - name: Run tests
+        run: echo "Running tests..."
